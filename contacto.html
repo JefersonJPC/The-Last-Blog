@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="submenu">
+                <div class="navlogo">
+                    <img src="img/logo.jpg" alt="">
+                </div>
+                <ul class="links" id="links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="nav-movil" id="nav-movil">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="formulario">
+        <form>
+            <h2>Formulario de Registro de Personaje</h2>
+
+            <label for="nombre">Nombre del personaje:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="faccion">Facción:</label>
+            <select id="faccion" name="faccion" required>
+                <option value="">-- Selecciona una facción --</option>
+                <option value="luciernagas">Luciérnagas</option>
+                <option value="wlf">Lobo (WLF)</option>
+                <option value="serafitas">Serafitas (Scars)</option>
+                <option value="cazadores">Cazadores</option>
+                <option value="jackson">Jackson</option>
+            </select>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="12" max="100" required>
+
+            <label for="arma">Arma principal:</label>
+            <input type="text" id="arma" name="arma" >
+
+            <label for="especialidad">Especialidad en combate:</label>
+            <input type="text" id="especialidad" name="especialidad" >
+
+            <label for="descripcion">Descripción del personaje:</label>
+            <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+
+            <button type="submit">Registrar Personaje</button>
+        </form>
+
+
+
+    </div>
+    <h1 style="color: white;">Listado de Supervivientes</h1>
+    <section class="tabla-s">
+        <table border="1">
+            <thead>
+                <tr bgcolor="skyblue">
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Habilidad</th>
+                    <th>Arma Principal</th>
+                    <th>Bando / Grupo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Joel Miller</td>
+                    <td>52</td>
+                    <td>Combate</td>
+                    <td>Escopeta</td>
+                    <td>Independiente</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ellie Williams</td>
+                    <td>19</td>
+                    <td>Sigilo</td>
+                    <td>Arco</td>
+                    <td>Luciérnagas</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abby Anderson</td>
+                    <td>28</td>
+                    <td>Fuerza Física</td>
+                    <td>Cuchillo</td>
+                    <td>Lobo (WLF)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dina</td>
+                    <td>20</td>
+                    <td>Medicina</td>
+                    <td>Pistola</td>
+                    <td>Jackson</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Tommy Miller</td>
+                    <td>50</td>
+                    <td>Francotirador</td>
+                    <td>Rifle</td>
+                    <td>Jackson</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Lev</td>
+                    <td>13</td>
+                    <td>Agilidad</td>
+                    <td>Lanza</td>
+                    <td>Serafitas</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Yara</td>
+                    <td>16</td>
+                    <td>Soporte</td>
+                    <td>Navaja</td>
+                    <td>Serafitas</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Jesse</td>
+                    <td>24</td>
+                    <td>Liderazgo</td>
+                    <td>Revólver</td>
+                    <td>Jackson</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Maria</td>
+                    <td>48</td>
+                    <td>Gestión</td>
+                    <td>Escopeta</td>
+                    <td>Jackson</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Isaac Dixon</td>
+                    <td>43</td>
+                    <td>Estrategia</td>
+                    <td>Fusil de asalto</td>
+                    <td>Lobo (WLF)</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+    <div class="footer">
+        <div class="subf">
+            <div class="f_content">
+                <div>
+                    <img src="img/logo.jpg" alt="" class="logo2">
+                    <p>"The Last of Us" es un videojuego desarrollado por Naughty Dog y lanzado por primera vez el
+                        14 de
+                        junio de 2013 para PlayStation 3, marcando un hito en la narrativa dentro del mundo de los
+                        videojuegos.</p>
+                </div>
+                <div class="enlaces">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="personajes.html">PERSONAJES</a></li>
+                        <li><a href="galeria.html">GALERÍA</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="reclamos">
+                    <h3>Reportes</h3>
+                    <ul>
+                        <li><img src="img/icon/reporte.png" alt="" width="30%"><a href="#">Reportar infectados</a>
+                        </li>
+                        <li><a href="#">Zona segura más cercana</a></li>
+                    </ul>
+                </div>
+                <div class="contactenos">
+                    <h3>Contacto con Fireflies</h3>
+                    <ul>
+                        <li><a href="#">Canal de radio: 88.7 FM</a></li>
+                        <li><a href="#">Ubicación: Teatro abandonado en Salt Lake City</a></li>
+                        <li><a href="#">Correo: contacto@fireflies.org</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p style="color: white; padding: 1rem; text-align: center;">© 2025 The Last of Us - Sitio fan creado por
+            Jeferson</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Galeria</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="submenu">
+                <div class="navlogo">
+                    <img src="img/logo.jpg" alt="">
+                </div>
+                <ul class="links" id="links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="nav-movil" id="nav-movil">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <h1 style="color: white;" class="tituloex">Galería de imágenes</h1>
+    <div class="galeria-interactiva">
+        <button class="flecha  flecha-izq" onclick="cambiarGaleria(-4)">&#10094;</button>
+        <div id="contenedor-galeria" class="contenedor-galeria">
+            <img src="img/referencia1.jpg" alt="Imagen 1">
+            <img src="img/img1.jpg" alt="Imagen 2">
+            <img src="img/referencia3.jpg" alt="Imagen 3">
+            <img src="img/referencia4.jpg" alt="Imagen 4">
+        </div>
+        <button class="flecha  flecha-der" onclick="cambiarGaleria(4)">&#10095;</button>
+    </div>
+
+    <p class="conten">
+        En "The Last of Us Parte II", la historia continúa cinco años después de los eventos originales. Ellie, ahora
+        con 19 años, vive en la comunidad de Jackson. Tras un evento traumático, inicia un viaje implacable por justicia
+        y venganza que la lleva a Seattle. El juego se destaca por su tono emocional, su narrativa cruda y su evolución
+        en jugabilidad, explorando los dilemas morales del odio, el perdón y la pérdida.
+    </p>
+    <h1 style="color: white;">Video destacado</h1>
+    <div class="video-presentacion">
+        <video width="70%" controls autoplay muted>
+            <source src="img/intro.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </div>
+    <p class="conten">
+        "Explora los momentos más épicos de The Last of Us a través de esta impresionante galería. Aquí encontrarás
+        imágenes clave del juego, capturas de escenas inolvidables y detalles sobre los personajes y facciones que
+        conforman este mundo post-apocalíptico. Sumérgete en la atmósfera única de este universo y descubre los secretos
+        detrás de cada imagen. ¡No te lo pierdas!"
+    </p>
+
+    <div class="footer">
+        <div class="subf">
+            <div class="f_content">
+                <div>
+                    <img src="img/logo.jpg" alt="" class="logo2">
+                    <p>"The Last of Us" es un videojuego desarrollado por Naughty Dog y lanzado por primera vez el
+                        14 de
+                        junio de 2013 para PlayStation 3, marcando un hito en la narrativa dentro del mundo de los
+                        videojuegos.</p>
+                </div>
+                <div class="enlaces">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="personajes.html">PERSONAJES</a></li>
+                        <li><a href="galeria.html">GALERÍA</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="reclamos">
+                    <h3>Reportes</h3>
+                    <ul>
+                        <li><img src="img/icon/reporte.png" alt="" width="30%"><a href="#">Reportar infectados</a>
+                        </li>
+                        <li><a href="#">Zona segura más cercana</a></li>
+                    </ul>
+                </div>
+                <div class="contactenos">
+                    <h3>Contacto con Fireflies</h3>
+                    <ul>
+                        <li><a href="#">Canal de radio: 88.7 FM</a></li>
+                        <li><a href="#">Ubicación: Teatro abandonado en Salt Lake City</a></li>
+                        <li><a href="#">Correo: contacto@fireflies.org</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p style="color: white; padding: 1rem; text-align: center;">© 2025 The Last of Us - Sitio fan creado por
+            Jeferson</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
