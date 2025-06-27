@@ -32,150 +32,29 @@
     </header>
 
     <section class="personajes">
-        <h1 style="color: white; padding: 1rem; text-align: center;" class="tituloex">Personajes de The Last of Us</h1>
-        <h2>Personajes Principales</h2>
-        <div class="lista-personajes">
-            <div class="personaje">
-                <img src="img/Part_II_Ellie_infobox.jpg" alt="Ellie">
-                <h3>Ellie</h3>
-                <p>Protagonista de la segunda entrega. Valiente, decidida y marcada por la tragedia. Su viaje está
-                    motivado por el deseo de justicia tras una pérdida devastadora.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Joel_infobox.jpg" alt="Joel">
-                <h3>Joel</h3>
-                <p>Protector de Ellie y figura paternal. Su pasado como contrabandista y las decisiones difíciles
-                    que toma marcan el rumbo de la historia.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Abby_TLOU2_remaster.PNG.jpg" alt="Abby">
-                <h3>Abby</h3>
-                <p>Miembro de los Lobos. Su historia se entrelaza con la de Ellie, mostrando otro lado del conflicto
-                    y desafiando la percepción del jugador sobre justicia y venganza.</p>
-            </div>
-        </div>
+        <div class="contenedor">
+          <aside class="sidebar">
+            <h2>Personajes</h2>
+            <ul id="lista-personajes">
+              <!-- Se llena con JS -->
+            </ul>
+          </aside>
 
-        <h2>Personajes Secundarios Relevantes</h2>
-        <div class="lista-personajes">
-            <div class="personaje">
-                <img src="img/Part_II_Dina_infobox.jpg" alt="Dina">
-                <h3>Dina</h3>
-                <p>Compañera de Ellie y figura clave en su viaje emocional. Proporciona apoyo y humanidad en medio
-                    del caos.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Tommy_infobox.jpg" alt="Tommy">
-                <h3>Tommy</h3>
-                <p>Hermano menor de Joel. Un personaje impulsado por la venganza, con un rol crucial en la historia
-                    de Ellie.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Lev_infobox.jpg" alt="Lev">
-                <h3>Lev</h3>
-                <p>Un joven miembro de los Serafitas que huye de su grupo. Forma un vínculo fuerte con Abby.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Yara_infobox.jpg" alt="Yara">
-                <h3>Yara</h3>
-                <p>Hermana mayor de Lev. Valiente y protectora, ayuda a Abby durante su tiempo con los Serafitas.
-                </p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Isaac_infobox.jpg" alt="Isaac">
-                <h3>Isaac</h3>
-                <p>Líder de los Lobos (WLF). Exmilitar, dirige con mano firme y es responsable de la guerra contra
-                    los Serafitas.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Emily_shoulder_infobox.jpg" alt="Emily">
-                <h3>Emily</h3>
-                <p>Miembro fanático de los Serafitas. Representa el extremismo dentro del grupo y su hostilidad
-                    hacia los desertores.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Jesse_infobox.jpg" alt="Jesse">
-                <h3>Jesse</h3>
-                <p>Amigo cercano de Ellie y exnovio de Dina. Un miembro responsable de la comunidad de Jackson que
-                    acompaña a Ellie en parte de su viaje.</p>
-            </div>
-            <div class="personaje">
-                <img src="img/Part_II_Maria_infobox.jpg" alt="Maria">
-                <h3>María</h3>
-                <p>Esposa de Tommy y líder de la comunidad de Jackson. Es sensata, firme y se encarga de proteger a
-                    los suyos, incluyendo a Ellie y Dina.</p>
-            </div>
+          <main class="contenido" id="detalle-main">
+            <h1>Selecciona un personaje</h1>
+            <blockquote><p>Haz clic en un nombre para mostrar detalles.</p></blockquote>
+            <p></p>
+          </main>
+
+          <aside class="tarjeta" id="detalle-tarjeta">
+            <h2>Detalles</h2>
+            <table>
+              <tbody></tbody>
+            </table>
+          </aside>
         </div>
 
     </section>
-    <h2 style="color: white; padding: 1rem; text-align: center;">Facciones o Grupos</h2>
-    <section>
-        <div class="facciones">
-            <div class="grupo">
-                <img src="img/Fireflies_logo.jpg" alt="" class="simbolo">
-                <h3>Los Luciérnagas</h3>
-                <p>Los Luciérnagas son una organización paramilitar revolucionaria que surgió como resistencia contra el
-                    régimen autoritario de FEDRA. Su principal objetivo era encontrar una cura para la infección del
-                    Cordyceps y restaurar el gobierno democrático. Operaban en secreto, realizando experimentos
-                    científicos, incluso utilizando a individuos inmunes como Ellie. Aunque defendían la libertad, sus
-                    métodos eran cuestionables y en ocasiones extremistas.</p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/FEDRA.jpg" alt="" class="simbolo">
-                <h3>FEDRA</h3>
-                <p>La Agencia Federal de Respuesta a Desastres (FEDRA) tomó el control de Estados Unidos después del
-                    brote. Establecieron zonas de cuarentena militarizadas, impusieron toques de queda y leyes
-                    marciales. Aunque proporcionaban orden y recursos, eran acusados de corrupción, represión y abuso de
-                    poder. Fueron blanco de los Luciérnagas y finalmente colapsaron en varias ciudades debido a
-                    rebeliones y falta de apoyo popular.</p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/Hunters_logo.jpg" alt="" class="simbolo">
-                <h3>Cazadores</h3>
-                <p>Los Cazadores son grupos de sobrevivientes hostiles que atacan a otros para robar provisiones. Se
-                    originaron cuando los ciudadanos se rebelaron contra FEDRA y tomaron el control de ciudades como
-                    Pittsburgh. Estos grupos no tienen una ideología unificada, pero suelen ser brutales y despiadados.
-                    Emboscan a viajeros, saquean vehículos y eliminan amenazas sin remordimiento.</p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/WLF_logo.jpg" alt="" class="simbolo">
-                <h3>Lobos</h3>
-                <p>Los Lobos nacieron como un movimiento revolucionario que derrocó a FEDRA en Seattle. Con el tiempo se
-                    convirtieron en una organización militarizada que controla vastas zonas urbanas con disciplina y
-                    armamento pesado. Entrenan perros rastreadores, imponen su ley y tienen una rígida jerarquía. Su
-                    guerra contra los Serafitas los consume, y su falta de piedad termina generando conflictos internos.
-                </p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/Seraphites_logo.jpg" alt="" class="simbolo">
-                <h3>Serafitas (Scars)</h3>
-                <p>Los Serafitas, apodados "Scars" por las cicatrices en sus rostros, son una secta religiosa aislada
-                    que venera a una figura profética llamada “La Mujer”. Rechazan la tecnología y consideran que el
-                    brote fue una purificación del mundo. Usan arcos, cuchillos y silbidos para comunicarse en combate.
-                    Viven en comunidades rurales, y su fanatismo ha provocado un conflicto sangriento con los Lobos.</p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/Polilla_2.jpg" alt="" class="simbolo">
-                <h3>Comunidad de Jackson</h3>
-                <p>Ubicada en Jackson, Wyoming, esta comunidad fue fundada por Tommy Miller y su esposa Maria. Se
-                    caracteriza por ser autosuficiente, democrática y pacífica. Han logrado establecer una vida estable
-                    con energía hidroeléctrica, cultivos y vigilancia comunitaria. Representa uno de los pocos ejemplos
-                    de reconstrucción social tras el colapso del mundo civilizado.</p>
-            </div>
-
-            <div class="grupo">
-                <img src="img/Rattlers_logo.jpg" alt="" class="simbolo">
-                <h3>Rattlers</h3>
-                <p>Los Rattlers son una banda esclavista que opera en la costa de California. Son crueles, sádicos y
-                    capturan a otros sobrevivientes para forzarlos a trabajar como esclavos. También mantienen
-                    infectados como guardianes encadenados. Representan el extremo de la deshumanización tras el
-                    apocalipsis, mostrando hasta qué punto puede llegar la pérdida de ética en este nuevo mundo.</p>
-            </div>
-        </div>
 
         <div class="footer">
             <div class="subf">
@@ -221,6 +100,4 @@
         </footer>
         <script src="js/main.js"></script>
 </body>
-
-
 </html>
