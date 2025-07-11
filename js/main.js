@@ -100,15 +100,6 @@ document.addEventListener('keydown', function (event) {
 });
 
 
-//Bloqueo de la tecla t
-document.addEventListener('keydown', function (event) {
-    if (event.key === 't' || event.keyCode === 123) {
-        event.preventDefault();
-        alert("Presionaste la tecla t")
-    }
-
-});
-
 
 
 
